@@ -1,0 +1,6 @@
+name: PortalSign
+main: DataLion\PortalSign\Main
+version: 1.0.3
+api: 3.9.4
+author: DataLion
+description: A simple way to make traveling faster
