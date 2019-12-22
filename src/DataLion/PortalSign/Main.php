@@ -38,7 +38,7 @@ class Main extends PluginBase implements Listener {
 	                return;
                 }
 	            $text = $e->getPlayer()->getLevel()->getTile(new Vector3($player->getFloorX(), $player->getFloorY() + 1, $player->getFloorZ()))->getText();
-	            if(strtolower($text[0]) == "[tdc portal]"){
+	            if(strtolower($text[0]) == "[portal]"){
 	                if(!empty($text[1])){
 	                    $level = $this->getServer()->getLevelByName($text[1]);
 	                    if(!is_null($level)){
