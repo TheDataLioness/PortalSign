@@ -9,7 +9,10 @@ Place down a sign with the following.
 | <worldname\> |
 | <x\> <y\> <z\> |
 | *<location name\> |
-\* : Optional
+
+
+
+##### \* : Optional
 
 
 Then place an iron pressure plate under the sign.
